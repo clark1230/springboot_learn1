@@ -1,5 +1,6 @@
 package com.hzitxx.controller;
 
+import com.hzitxx.entity.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -32,5 +33,10 @@ public class IndexController {
     @GetMapping("/nice")
     public String nice(){
         return "nice";
+    }
+
+    @GetMapping("/showUser")
+    public User showUser(){
+        return new User(1,"jack","男");
     }
 }
