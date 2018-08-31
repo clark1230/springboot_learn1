@@ -28,4 +28,9 @@ public class IndexController {
     public String removeUser(){
         return  "删除用户";
     }
+
+    @GetMapping("/nice")
+    public String nice(){
+        return "nice";
+    }
 }
