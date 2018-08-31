@@ -9,10 +9,10 @@ import java.util.List;
 
 @RestController
 public class IndexController {
-    @GetMapping("/test")
-    public String test(){
-        return "你好，世界!";
-    }
+//    @GetMapping("/test")
+//    public String test(){
+//        return "你好，世界!";
+//    }
 
 //    @GetMapping("/helloworld")
 //    public String hellowold(){
