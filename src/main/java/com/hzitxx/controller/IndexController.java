@@ -28,10 +28,10 @@ public class IndexController {
 //    public String userList(){
 //        return "用户列表";
 //    }
-    @GetMapping("/removeUser")
-    public String removeUser(){
-        return  "删除用户";
-    }
+//    @GetMapping("/removeUser")
+//    public String removeUser(){
+//        return  "删除用户";
+//    }
 
 //    @GetMapping("/nice")
 //    public String nice(){
