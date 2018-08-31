@@ -14,10 +14,10 @@ public class IndexController {
         return "你好，世界!";
     }
 
-    @GetMapping("/helloworld")
-    public String hellowold(){
-        return "helloworld!";
-    }
+//    @GetMapping("/helloworld")
+//    public String hellowold(){
+//        return "helloworld!";
+//    }
 
     @GetMapping("/findOne")
     public String findOne(){
