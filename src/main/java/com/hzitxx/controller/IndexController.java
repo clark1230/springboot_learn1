@@ -19,10 +19,10 @@ public class IndexController {
 //        return "helloworld!";
 //    }
 
-    @GetMapping("/findOne")
-    public String findOne(){
-        return "查询用户！";
-    }
+//    @GetMapping("/findOne")
+//    public String findOne(){
+//        return "查询用户！";
+//    }
 
 //    @GetMapping("/userList")
 //    public String userList(){
