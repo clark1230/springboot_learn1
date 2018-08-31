@@ -33,10 +33,10 @@ public class IndexController {
 //        return  "删除用户";
 //    }
 
-//    @GetMapping("/nice")
-//    public String nice(){
-//        return "nice";
-//    }
+    @GetMapping("/nice")
+    public String nice(){
+        return "nice";
+    }
 
     @GetMapping("/showUser")
     public User showUser(){
