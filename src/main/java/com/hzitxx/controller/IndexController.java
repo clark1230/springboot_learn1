@@ -9,4 +9,9 @@ public class IndexController {
     public String test(){
         return "你好，世界!";
     }
+
+    @GetMapping("/helloworld")
+    public String hellowold(){
+        return "helloworld!";
+    }
 }
