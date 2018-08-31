@@ -14,9 +14,14 @@ public class IndexController {
     public String hellowold(){
         return "helloworld!";
     }
-    
+
     @GetMapping("/findOne")
     public String findOne(){
         return "查询用户！";
+    }
+
+    @GetMapping("/userList")
+    public String userList(){
+        return "用户列表";
     }
 }
