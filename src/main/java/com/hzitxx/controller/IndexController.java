@@ -40,7 +40,7 @@ public class IndexController {
 
     @GetMapping("/showUser")
     public User showUser(){
-        return new User(1,"jack","男");
+        return new User(1,"冼耀基","男");
     }
 
     /**
